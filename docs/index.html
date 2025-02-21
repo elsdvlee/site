@@ -2,32 +2,11 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>RDF Data</title>
-    <script>
-        const formats = {
-            "application/ld+json": "profile.jsonld",
-            "text/turtle": "profile.ttl",
-            "application/rdf+xml": "profile.rdf",
-            "application/n-triples": "profile.nt"
-        };
-
-        const accept = navigator.language || "text/turtle"; 
-        for (let format in formats) {
-            if (navigator.language.includes(format)) {
-                window.location.href = formats[format];
-                break;
-            }
-        }
-    </script>
+    <title>My Site</title>
 </head>
 <body>
-    <h1>RDF Data</h1>
-    <p>Available formats:</p>
-    <ul>
-        <li><a href="profile.ttl">Turtle</a></li>
-        <li><a href="profile.rdf">RDF/XML</a></li>
-        <li><a href="profile.jsonld">JSON-LD</a></li>
-        <li><a href="profile.nt">N-Triples</a></li>
-    </ul>
+    <h1>Els de Vleeschauwer</h1>
+    <p>Welcome to my site</p>
+
 </body>
 </html>
