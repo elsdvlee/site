@@ -1,0 +1,14 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix knows:  <https://data.knows.idlab.ugent.be/person/office/#> .
+
+<#me> a foaf:Person;
+      foaf:givenName "Els"@en;
+      foaf:familyName "de Vleeschauwer"@en;
+      vcard:title "Researcher";
+      foaf:mbox <mailto:Els.deVleeschauwer@UGent.be>;
+      foaf:img <profile.jpg>;
+      foaf:account [
+       a knows:GitHubAccount ;
+       foaf:accountName "elsdvlee";
+       foaf:accountServiceHomepage <https://github.com/> ].
